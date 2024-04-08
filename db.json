@@ -1,0 +1,241 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Classic Manicure",
+      "description": "Includes filing, moisturizing, and permanent polish application.",
+      "category": "Hands and Feet"
+    },
+    {
+      "id": "2",
+      "name": "Spa Pedicure",
+      "description": "Spa pedicure with paraffin bath for soft and relaxed feet.",
+      "category": "Hands and Feet"
+    },
+    {
+      "id": "3",
+      "name": "Cut and Style",
+      "description": "Custom haircut plus washing and styling.",
+      "category": "Hair"
+    },
+    {
+      "id": "4",
+      "name": "Full Color",
+      "description": "Full hair coloring with ammonia-free products.",
+      "category": "Hair"
+    },
+    {
+      "id": "5",
+      "name": "Deep Tissue Massage",
+      "description": "Intense massage to alleviate muscle tension.",
+      "category": "Massage and Spa"
+    },
+    {
+      "id": "6",
+      "name": "Anti-Aging Facial",
+      "description": "Rejuvenating facial treatment with natural products.",
+      "category": "Facial Care"
+    },
+    {
+      "id": "7",
+      "name": "Waxing",
+      "description": "Body waxing for smooth, hair-free skin.",
+      "category": "Hair Removal"
+    },
+    {
+      "id": "8",
+      "name": "Hair Treatment",
+      "description": "Repairing treatment for damaged or dyed hair.",
+      "category": "Hair"
+    },
+    {
+      "id": "9",
+      "name": "Professional Makeup",
+      "description": "Makeup services for special events.",
+      "category": "Makeup"
+    },
+    {
+      "id": "10",
+      "name": "Facial Cleansing",
+      "description": "Deep cleansing with impurity extraction and mask application.",
+      "category": "Facial Care"
+    }
+  ],
+  "slots": [
+    {
+      "date": "2024-04-26",
+      "serviceId": 1,
+      "availableTimeslots": [
+        "11:00",
+        "12:00",
+        "14:00",
+        "15:00"
+      ],
+      "id": "274a"
+    },
+    {
+      "date": "2024-04-27",
+      "serviceId": 2,
+      "availableTimeslots": [
+        "09:30",
+        "10:30",
+        "11:30",
+        "12:30",
+        "13:30",
+        "14:30",
+        "15:30",
+        "16:30"
+      ],
+      "id": "ffba"
+    },
+    {
+      "date": "2024-04-28",
+      "serviceId": 3,
+      "availableTimeslots": [
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "id": "14ee"
+    },
+    {
+      "date": "2024-04-29",
+      "serviceId": 4,
+      "availableTimeslots": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ],
+      "id": "3eb1"
+    },
+    {
+      "date": "2024-04-30",
+      "serviceId": 5,
+      "availableTimeslots": [
+        "09:30",
+        "10:30",
+        "11:30",
+        "12:30",
+        "14:30",
+        "15:30",
+        "16:30"
+      ],
+      "id": "4b51"
+    },
+    {
+      "date": "2024-05-01",
+      "serviceId": 6,
+      "availableTimeslots": [
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "id": "580e"
+    },
+    {
+      "date": "2024-05-02",
+      "serviceId": 7,
+      "availableTimeslots": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ],
+      "id": "b7a5"
+    },
+    {
+      "date": "2024-05-03",
+      "serviceId": 8,
+      "availableTimeslots": [
+        "09:30",
+        "10:30",
+        "11:30",
+        "12:30",
+        "13:30",
+        "14:30",
+        "15:30",
+        "16:30"
+      ],
+      "id": "2aa9"
+    },
+    {
+      "date": "2024-05-04",
+      "serviceId": 9,
+      "availableTimeslots": [
+        "10:00",
+        "11:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "id": "311d"
+    },
+    {
+      "date": "2024-05-05",
+      "serviceId": 10,
+      "availableTimeslots": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ],
+      "id": "b491"
+    },
+    {
+      "date": "2024-05-06",
+      "serviceId": 10,
+      "availableTimeslots": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "15:00",
+        "16:00"
+      ],
+      "id": "b492"
+    }
+  ],
+  "logs": [
+    {
+      "id": "079a",
+      "detalle": "servicio :Classic Manicure, día: 2024-04-26, hora: 16:00"
+    },
+    {
+      "id": "a98f",
+      "detalle": "servicio :Professional Makeup, día: 2024-04-30, hora: 13:30"
+    },
+    {
+      "id": "01d5",
+      "detalle": "servicio :Professional Makeup, día: 2024-05-04, hora: 12:00"
+    },
+    {
+      "id": "d5ca",
+      "detalle": "servicio :Professional Makeup, día: 2024-04-26, hora: 13:00"
+    }
+  ]
+}
