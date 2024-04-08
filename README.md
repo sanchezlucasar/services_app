@@ -3,11 +3,10 @@ Service App
 </h1>
 
 <p id='menu' align="center">
- 
-  <a href="#instalacion">Instalación de la aplicación</a> •
+   <a href="#instalacion">Instalación de la aplicación</a> •
   <a href="#jsonServer">Correr el servidor</a> •
   <a href="#ejecutarDev">Ejecución en Desarrollo</a> •
-  <a href="#ejecutarProd">Ejecución en Producción</a>
+   <a href="#ejecutarProd">Ejecución en Producción</a>   
 </p>
 
 <br>
@@ -102,4 +101,33 @@ http://localhost:3000/
 
 > **Nota:** 
 > Para acceder a la aplicación solo ir al link de acceso local   http://localhost:3001 
+</div>
+
+
+
+<div id='ejecutarProd'>
+
+## Ejecución en Producción.<a href=#menu >&crarr;</a>
+
+1. ejecutar y correr 
+> **Nota:** 
+>Abrir otra terminal distinta a la abierta para correr json-server y ejecutar el siguiente script
+<br>
+
+ ```ps
+  ../service_app> npm run dev
+ ```
+>**Ejemplo :** debe aparecer de esta manera si se ejecuta correctamente y sin errores
+<br>
+
+```ps
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3001
+   - Environments: .env
+```
+
+> **Nota:** 
+> Para acceder a la aplicación solo ir al link https://services-app-five.vercel.app/servicios
 </div>
