@@ -17,7 +17,7 @@ function Navbar() {
                 </div>
                 <a className="btn btn-ghost text-xl">Services App</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li className="">  <Link href="/servicios">Servicios</Link></li>
                     <li className="">  <Link href="/logs">Registros</Link></li>
