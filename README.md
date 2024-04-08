@@ -115,19 +115,39 @@ http://localhost:3000/
 <br>
 
  ```ps
-  ../service_app> npm run dev
+  ../service_app> npm run json-server
  ```
->**Ejemplo :** debe aparecer de esta manera si se ejecuta correctamente y sin errores
+
+ >**Ejemplo :** debe aparecer de esta manera si se ejecuta correctamente y sin errores
 <br>
 
 ```ps
 > next dev
+Serving ./public directory if it exists
 
-   ▲ Next.js 14.0.4
-   - Local:        http://localhost:3001
-   - Environments: .env
+Endpoints:
+http://localhost:3000/services
+http://localhost:3000/slots
+http://localhost:3000/logs
+^C^C¿Desea terminar el trabajo por lotes (S/N)? s
+PS C:\Proyectos de Prueba\todopino-app - copia> npm run json-server
+
+> services-app@0.1.0 json-server
+> json-server --watch db.json
+
+--watch/-w can be omitted, JSON Server 1+ watches for file changes by default
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching db.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:3000/
+
 ```
 
+
 > **Nota:** 
-> Para acceder a la aplicación solo ir al link https://services-app-five.vercel.app/servicios
+> Para acceder a la aplicación solo ir al link https://services-app-five.vercel.app/servicios , es importante antes estar corriendo json-server de manera local, ya que la aplicación se subió con estas caracteristicas para simular la recepción de la info a traves de la  api mediante el puerto http://localhost:3000 
 </div>
