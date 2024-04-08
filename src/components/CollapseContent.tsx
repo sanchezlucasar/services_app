@@ -30,14 +30,18 @@ const CollapseContent: React.FC<CollapseContentProps> = ({ title, content }) => 
                 </div>
                 <div className="collapse-content">
                     {content && content.length > 0 && content.map(detalle => (
-                        <div className="flex flex-col">
-                            <div key={detalle.id} className="border border-base-300 m-1 p-1">
+                        <div key={detalle.id} className="flex flex-col">
+                            <div className="border border-base-300 m-1 p-1">
                                 <h1 className="font-bold">{detalle.name}</h1>
                                 <p>{detalle.description}</p>
                             </div>
-                            <a className={`btn-sel btn btn-outline btn-primary ${selectedService === detalle.id ? 'bg-violet-400 text-white' : ''}`}
+                            <a
+                                key={`button-${detalle.id}`} // Agregar una key única para el botón
+                                className={`btn-sel btn btn-outline btn-primary ${selectedService === detalle.id ? 'bg-violet-400 text-white' : ''}`}
                                 onClick={(e) => handleButtonClick(e, detalle.id)}
-                            >{(selectedService === detalle.id) ? 'Seleccionado' : 'Seleccionar'}</a>
+                            >
+                                {selectedService === detalle.id ? 'Seleccionado' : 'Seleccionar'}
+                            </a>
                         </div>
                     ))}
                 </div>
