@@ -7,7 +7,7 @@ const PageLog = () => {
     const { data: logs, error, isLoading, isError } = useQuery({
         queryKey: ['logs'],
         queryFn: async () => {
-            const response = await fetch('http://localhost:3000/logs');
+            const response = await fetch('http://localhost:3001/logs');
             if (!response.ok) {
                 throw new Error('No se pudieron obtener los datos');
             }

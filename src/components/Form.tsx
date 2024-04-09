@@ -46,7 +46,7 @@ const Formulario: React.FC<Props> = ({ servicios, slots, dispatch }) => {
     const { data: services, error, isLoading, isError } = useQuery({
         queryKey: ['services'],
         queryFn: async () => {
-            const response = await fetch(`http://localhost:3000/services/${selectedService}`);
+            const response = await fetch(`http://localhost:3001/services/${selectedService}`);
             if (!response.ok) {
                 throw new Error('No se pudieron obtener los datos');
             }
@@ -61,9 +61,8 @@ const Formulario: React.FC<Props> = ({ servicios, slots, dispatch }) => {
 
     const registerLog = async (data: any) => {
 
-        const url = 'http://ejemplo.com/api/data';
         try {
-            const response = await fetch('http://localhost:3000/logs', {
+            const response = await fetch('http://localhost:3001/logs', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -91,7 +90,7 @@ const Formulario: React.FC<Props> = ({ servicios, slots, dispatch }) => {
 
             (indexToRemove !== -1) ? slot.availableTimeslots.splice(indexToRemove, 1) : console.log("El horario especificado no existe en la lista.");
 
-            const response = await fetch(`http://localhost:3000/slots/${slot.id}`, {
+            const response = await fetch(`http://localhost:3001/slots/${slot.id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

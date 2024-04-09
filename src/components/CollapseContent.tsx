@@ -19,8 +19,6 @@ const CollapseContent: React.FC<CollapseContentProps> = ({ title, content }) => 
     const handleButtonClick = (e: React.MouseEvent<HTMLAnchorElement>, id: number) => {
         e.stopPropagation();
         (selectedService === id) ? toast.error("Ese servicio ya se encuentra seleccionado") : dispatchService({ type: 'SET_SERVICE', id });
-        console.log(id);
-        console.log(selectedService);
     };
     return (
         <div className="border border-base-300 m-1 p-1">

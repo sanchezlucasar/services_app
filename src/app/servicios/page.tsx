@@ -12,7 +12,7 @@ const ServiciosPage = () => {
     const { data: servicios, error, isLoading, isError } = useQuery({
         queryKey: ['servicios'],
         queryFn: async () => {
-            const response = await fetch('http://localhost:3000/services');
+            const response = await fetch('http://localhost:3001/services');
             if (!response.ok) {
                 throw new Error('No se pudieron obtener los datos');
             }
@@ -23,7 +23,7 @@ const ServiciosPage = () => {
     const { data: slots, error: errorSlots, isLoading: isLoadinerrorSlots, isError: isErrorSlots } = useQuery({
         queryKey: ['slots'],
         queryFn: async () => {
-            const response = await fetch('http://localhost:3000/slots');
+            const response = await fetch('http://localhost:3001/slots');
             if (!response.ok) {
                 throw new Error('No se pudieron obtener los datos');
             }
